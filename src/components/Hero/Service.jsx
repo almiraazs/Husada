@@ -6,70 +6,77 @@ import SimpananAnggotaImg from "../../assets/simpanan-anggota.png";
 
 const Service = () => {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 p-8 max-w-4xl mx-auto">
-      {/* Simpanan Wajib */}
-      <div className="flex items-center bg-gray-100 rounded-xl shadow-md p-6 space-x-4">
-        <img
-          src={SimpananWajibImg}
-          alt="Simpanan Wajib"
-          className="w-20 h-20 object-contain"
-        />
-        <div className="text-center">
-          <h2 className="text-xl font-bold leading-tight">
-            <span className="text-green-600">Simpanan</span>
-            <br />
-            <span className="text-green-600">Wajib</span>
-          </h2>
-        </div>
-      </div>
+    <div id="services" className="p-6">
+      {/* Title */}
+      <h1 className="text-4xl font-extrabold text-center text-gray-800 mb-12">
+        <span className="bg-clip-text text-transparent bg-gradient-to-r from-gray-600 to-green-300">
+          Our Services
+        </span>
+      </h1>
 
-      {/* Pinjaman Wajib */}
-      <div className="flex items-center bg-green-100 rounded-xl shadow-md p-6 space-x-4">
-        <img
-          src={PinjamanWajibImg}
-          alt="Pinjaman Wajib"
-          className="w-20 h-20 object-contain"
-        />
-        <div className="text-center">
-          <h2 className="text-xl font-bold leading-tight">
-            <span className="text-green-700">Pinjaman</span>
-            <br />
-            <span className="text-green-700">Wajib</span>
-          </h2>
+      <div className="flex flex-wrap justify-center gap-6">
+        {/* Simpanan Wajib */}
+        <div className="flex items-center bg-gradient-to-r from-green-100 to-green-300 rounded-lg shadow-xl p-8 w-80 transform transition duration-300 hover:scale-105 hover:shadow-2xl">
+          <div className="flex-1">
+            <h2 className="text-lg font-bold text-green-700">
+              <span>Simpanan</span>
+              <br />
+              <span>Wajib</span>
+            </h2>
+          </div>
+          <img
+            src={SimpananWajibImg}
+            alt="Simpanan Wajib"
+            className="w-20 h-20 object-cover"
+          />
         </div>
-      </div>
 
-      {/* Resiko Kredit */}
-      <div className="flex items-center bg-black rounded-xl shadow-md p-6 space-x-4">
-        <img
-          src={ResikoKreditImg}
-          alt="Resiko Kredit"
-          className="w-20 h-20 object-contain"
-        />
-        <div className="text-center">
-          <h2 className="text-xl font-bold leading-tight">
-            <span className="text-white">Resiko</span>
-            <br />
-            <span className="text-white">Kredit</span>
-          </h2>
+        {/* Pinjaman Wajib */}
+        <div className="flex items-center bg-gradient-to-r from-yellow-100 to-yellow-300 rounded-lg shadow-xl p-8 w-80 transform transition duration-300 hover:scale-105 hover:shadow-2xl">
+          <div className="flex-1">
+            <h2 className="text-lg font-bold text-yellow-700">
+              <span>Pinjaman</span>
+              <br />
+              <span>Wajib</span>
+            </h2>
+          </div>
+          <img
+            src={PinjamanWajibImg}
+            alt="Pinjaman Wajib"
+            className="w-20 h-20 object-cover"
+          />
         </div>
-      </div>
 
-      {/* Simpanan Anggota (Pihak 3) */}
-      <div className="flex items-center bg-gray-100 rounded-xl shadow-md p-6 space-x-4">
-        <img
-          src={SimpananAnggotaImg}
-          alt="Simpanan Anggota (Pihak 3)"
-          className="w-20 h-20 object-contain"
-        />
-        <div className="text-center">
-          <h2 className="text-xl font-bold leading-tight">
-            <span className="text-green-600">Simpanan</span>
-            <br />
-            <span className="text-green-600">Anggota</span>
-            <br />
-            <span className="text-green-600">(Pihak 3)</span>
-          </h2>
+        {/* Resiko Kredit */}
+        <div className="flex items-center bg-gradient-to-r from-gray-800 to-gray-900 rounded-lg shadow-xl p-8 w-80 transform transition duration-300 hover:scale-105 hover:shadow-2xl">
+          <div className="flex-1">
+            <h2 className="text-lg font-bold text-white">
+              <span>Resiko</span>
+              <br />
+              <span>Kredit</span>
+            </h2>
+          </div>
+          <img
+            src={ResikoKreditImg}
+            alt="Resiko Kredit"
+            className="w-20 h-20 object-cover"
+          />
+        </div>
+
+        {/* Simpanan Anggota */}
+        <div className="flex items-center bg-gradient-to-r from-blue-100 to-blue-300 rounded-lg shadow-xl p-8 w-80 transform transition duration-300 hover:scale-105 hover:shadow-2xl">
+          <div className="flex-1">
+            <h2 className="text-lg font-bold text-blue-400">
+              <span>Simpanan</span>
+              <br />
+              <span>Anggota (Pihak 3)</span>
+            </h2>
+          </div>
+          <img
+            src={SimpananAnggotaImg}
+            alt="Simpanan Anggota (Pihak 3)"
+            className="w-20 h-20 object-cover"
+          />
         </div>
       </div>
     </div>
