@@ -8,17 +8,17 @@ const Service = () => {
   return (
     <div id="services" className="p-6">
       {/* Title */}
-      <h1 className="text-4xl font-extrabold text-center text-gray-800 mb-12">
-        <span className="bg-clip-text text-transparent bg-gradient-to-r from-gray-600 to-green-300">
+      <h1 className="text-3xl font-extrabold text-center text-gray-800 mb-12">
+        <span className="bg-clip-text text-transparent bg-gradient-to-r from-gray-600 to-gray-600">
           Our Services
         </span>
       </h1>
 
       <div className="flex flex-wrap justify-center gap-6">
         {/* Simpanan Wajib */}
-        <div className="flex items-center bg-gradient-to-r from-green-100 to-green-300 rounded-lg shadow-xl p-8 w-80 transform transition duration-300 hover:scale-105 hover:shadow-2xl">
+        <div className="flex items-center bg-gradient-to-r from-gray-800 to-gray-900 rounded-lg shadow-xl p-8 w-80 transform transition duration-300 hover:scale-105 hover:shadow-2xl">
           <div className="flex-1">
-            <h2 className="text-lg font-bold text-green-700">
+            <h2 className="text-xl font-bold text-white tracking-wide transform transition duration-500 hover:text-gray-400 text-shadow">
               <span>Simpanan</span>
               <br />
               <span>Wajib</span>
@@ -32,9 +32,9 @@ const Service = () => {
         </div>
 
         {/* Pinjaman Wajib */}
-        <div className="flex items-center bg-gradient-to-r from-yellow-100 to-yellow-300 rounded-lg shadow-xl p-8 w-80 transform transition duration-300 hover:scale-105 hover:shadow-2xl">
+        <div className="flex items-center bg-gradient-to-r from-blue-100 to-blue-300 rounded-lg shadow-xl p-8 w-80 transform transition duration-300 hover:scale-105 hover:shadow-2xl">
           <div className="flex-1">
-            <h2 className="text-lg font-bold text-yellow-700">
+            <h2 className="text-xl font-bold text-blue-400 tracking-wide transform transition duration-500 hover:text-blue-300 text-shadow">
               <span>Pinjaman</span>
               <br />
               <span>Wajib</span>
@@ -50,7 +50,7 @@ const Service = () => {
         {/* Resiko Kredit */}
         <div className="flex items-center bg-gradient-to-r from-gray-800 to-gray-900 rounded-lg shadow-xl p-8 w-80 transform transition duration-300 hover:scale-105 hover:shadow-2xl">
           <div className="flex-1">
-            <h2 className="text-lg font-bold text-white">
+            <h2 className="text-xl font-bold text-white tracking-wide transform transition duration-500 hover:text-gray-400 text-shadow">
               <span>Resiko</span>
               <br />
               <span>Kredit</span>
@@ -66,7 +66,7 @@ const Service = () => {
         {/* Simpanan Anggota */}
         <div className="flex items-center bg-gradient-to-r from-blue-100 to-blue-300 rounded-lg shadow-xl p-8 w-80 transform transition duration-300 hover:scale-105 hover:shadow-2xl">
           <div className="flex-1">
-            <h2 className="text-lg font-bold text-blue-400">
+            <h2 className="text-xl font-bold text-blue-400 tracking-wide transform transition duration-500 hover:text-blue-300 text-shadow">
               <span>Simpanan</span>
               <br />
               <span>Anggota (Pihak 3)</span>

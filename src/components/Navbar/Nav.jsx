@@ -27,7 +27,7 @@ const NavLinks = [
 
 const Nav = () => {
   return (
-    <div className="container py-4 flex justify-between items-center">
+    <div className="container py-4 flex justify-between items-center sticky top-0 z-10 bg-white shadow-md">
       {/* Bagian Logo */}
       <div className="flex items-center gap-3">
         <img src={Logo} alt="logo" className="w-10" />
@@ -39,7 +39,7 @@ const Nav = () => {
           <a
             key={link.id}
             href={link.link}
-            className="mx-8 text-sm font-semibold text-gray-700 hover:text-gray-900"
+            className="mx-8 text-sm font-semibold text-gray-700 hover:text-green-400"
           >
             {link.title}
           </a>
