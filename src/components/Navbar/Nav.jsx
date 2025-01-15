@@ -14,6 +14,11 @@ const NavLinks = [
     link: "#services", // Link ke bagian Services
   },
   {
+    id: 4,
+    title: "Time",
+    link: "#time",
+  },
+  {
     id: 3,
     title: "Team",
     link: "#team", // Link ke bagian Team

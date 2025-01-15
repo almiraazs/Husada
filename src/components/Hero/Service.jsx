@@ -18,10 +18,8 @@ const Service = () => {
         {/* Simpanan Wajib */}
         <div className="flex items-center bg-gradient-to-r from-gray-800 to-gray-900 rounded-lg shadow-xl p-8 w-80 transform transition duration-300 hover:scale-105 hover:shadow-2xl">
           <div className="flex-1">
-            <h2 className="text-xl font-bold text-white tracking-wide transform transition duration-500 hover:text-gray-400 text-shadow">
+            <h2 className="text-xl font-extrabold text-white tracking-wide transform transition duration-500 hover:text-gray-400 text-shadow">
               <span>Simpanan</span>
-              <br />
-              <span>Wajib</span>
             </h2>
           </div>
           <img
@@ -36,8 +34,6 @@ const Service = () => {
           <div className="flex-1">
             <h2 className="text-xl font-bold text-blue-400 tracking-wide transform transition duration-500 hover:text-blue-300 text-shadow">
               <span>Pinjaman</span>
-              <br />
-              <span>Wajib</span>
             </h2>
           </div>
           <img
@@ -51,9 +47,9 @@ const Service = () => {
         <div className="flex items-center bg-gradient-to-r from-gray-800 to-gray-900 rounded-lg shadow-xl p-8 w-80 transform transition duration-300 hover:scale-105 hover:shadow-2xl">
           <div className="flex-1">
             <h2 className="text-xl font-bold text-white tracking-wide transform transition duration-500 hover:text-gray-400 text-shadow">
-              <span>Resiko</span>
+              <span>Dana</span>
               <br />
-              <span>Kredit</span>
+              <span>Sosial</span>
             </h2>
           </div>
           <img
@@ -67,9 +63,9 @@ const Service = () => {
         <div className="flex items-center bg-gradient-to-r from-blue-100 to-blue-300 rounded-lg shadow-xl p-8 w-80 transform transition duration-300 hover:scale-105 hover:shadow-2xl">
           <div className="flex-1">
             <h2 className="text-xl font-bold text-blue-400 tracking-wide transform transition duration-500 hover:text-blue-300 text-shadow">
-              <span>Simpanan</span>
+              <span>Dana</span>
               <br />
-              <span>Anggota (Pihak 3)</span>
+              <span>Pendidikan</span>
             </h2>
           </div>
           <img
