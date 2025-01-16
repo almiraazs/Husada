@@ -3,6 +3,7 @@ import Nav from "./components/Navbar/Nav";
 import About from "./components/Hero/About";
 import Service from "./components/Hero/Service";
 import Time from "./components/Hero/Time";
+import ServiceAccordion from "./components/ServiceAccordion";
 
 const App = () => { 
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Nav />
       <About />
       <Service />
+      <ServiceAccordion />
       <Time />
     </main>
   )
