@@ -4,6 +4,7 @@ import About from "./components/Hero/About";
 import Service from "./components/Hero/Service";
 import Time from "./components/Hero/Time";
 import ServiceAccordion from "./components/ServiceAccordion";
+import Footer from "./components/Footer";
 
 const App = () => { 
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Service />
       <ServiceAccordion />
       <Time />
+      <Footer />
     </main>
   )
 }
