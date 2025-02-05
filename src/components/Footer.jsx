@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 px-6">
         {/* Bagian Kontak */}
         <div>
-          <h2 className="text-lg font-semibold mb-2">Kontak</h2>
+          <h2 className="text-lg font-semibold mb-2">Contact</h2>
           <p className="flex items-center gap-2">
             📍 <span>Kauman, Batang</span>
           </p>
@@ -23,22 +23,35 @@ const Footer = () => {
             📞 <span>0285-3928-56</span>
           </p>
           <p className="flex items-center gap-2">
-            ✉️ <span className="text-green-400"><a href="mailto:husadabatang@gmail.com" className="text-green-400 hover:underline">husadabatang@gmail.com</a></span>
+            ✉️{" "}
+            <span className="text-green-400">
+              <a
+                href="mailto:husadabatang@gmail.com"
+                className="text-green-400 hover:underline"
+              >
+                husadabatang@gmail.com
+              </a>
+            </span>
           </p>
         </div>
 
         {/* Bagian About */}
         <div>
-          <h2 className="text-lg font-semibold mb-2">Tentang Kami</h2>
+          <h2 className="text-lg font-semibold mb-2">About</h2>
           <p className="text-gray-400">
-            Koperasi Husada Batang adalah lembaga yang berkomitmen untuk meningkatkan kesejahteraan anggotanya melalui berbagai layanan. Kami menyediakan layanan kesehatan berkualitas, program simpan pinjam dengan bunga kompetitif. Selain itu, kami juga aktif dalam kegiatan sosial dan pemberdayaan ekonomi anggota untuk menciptakan komunitas yang lebih mandiri dan sejahtera.
+            Koperasi Husada Batang adalah lembaga yang berkomitmen untuk
+            meningkatkan kesejahteraan anggotanya melalui berbagai layanan. Kami
+            menyediakan layanan kesehatan berkualitas, program simpan pinjam
+            dengan bunga kompetitif. Selain itu, kami juga aktif dalam kegiatan
+            sosial dan pemberdayaan ekonomi anggota untuk menciptakan komunitas
+            yang lebih mandiri dan sejahtera.
           </p>
         </div>
       </div>
-          <div className='text-center text-gray-400 mt-6'>
+      <div className="text-center text-gray-400 mt-6">
         &copy; 2025 KPRI Husada. All Rights Reserved.
       </div>
-  </footer>
+    </footer>
   );
 };
 
