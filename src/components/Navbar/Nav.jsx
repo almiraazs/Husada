@@ -4,17 +4,17 @@ import Logo from "../../assets/logo-kpri.jpg";
 const NavLinks = [
   {
     id: 1,
-    title: "Layanan",
+    title: "Service",
     link: "#services", // Link ke bagian Services
   },
   {
     id: 2,
-    title: "Jam Buka & Lokasi",
+    title: "Location & Operasional Hours",
     link: "#location-hours", // Link ke bagian Services
   },
   {
     id: 3,
-    title: "Hubungi Kami",
+    title: "Contact",
     link: "#contact",
   },
 ];

@@ -15,7 +15,7 @@ const AccordionItem = forwardRef(({ title, content }, ref) => {
   }));
 
   return (
-    <div className="overflow-hidden rounded-lg border border-green-300 shadow-md">
+    <div className="overflow-hidden rounded-lg border border-blue-300 shadow-md">
       {/* Tombol Accordion */}
       <button
         className="flex w-full items-center justify-between bg-gray-100 px-4 py-4 text-left font-medium hover:bg-gray-200 transition-colors duration-300"

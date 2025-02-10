@@ -27,7 +27,7 @@ const About = () => {
         </div>
 
         {/* Bagian Gambar */}
-        <div className="relative order-1 flex justify-end md:order-2 md:pr-16">
+        <div className="relative order-1 flex justify-center md:order-2 md:justify-end md:pr-16">
           <img
             src={KPRI}
             alt="Logo KPRI Husada Batang - Koperasi Pegawai Negeri Sektor Kesehatan"

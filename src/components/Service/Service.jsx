@@ -29,8 +29,8 @@ const Service = () => {
     <section id="services" className="bg-zinc-100 px-6 pb-12 pt-24">
       {/* Title */}
       <h2 className="mb-12 text-center text-3xl font-bold">
-        <span className="bg-gradient-to-r from-emerald-800 to-gray-700 bg-clip-text text-transparent">
-          Layanan Kami
+        <span className="bg-gradient-to-r from-blue-500 to-blue-400 bg-clip-text text-transparent">
+          Service
         </span>
       </h2>
 
