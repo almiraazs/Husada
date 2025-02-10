@@ -1,4 +1,4 @@
-import KPRI from "../../assets/KPRI.png";
+import KPRI from "../../assets/logo-kpri.jpg";
 
 const About = () => {
   return (

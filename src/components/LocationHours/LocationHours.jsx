@@ -1,5 +1,5 @@
 import Location from "./Location";
-import OperationalHours from "./OperationalHours";
+import OperasionalHours from "./OperasionalHours";
 
 const LocationHours = () => {
   return (
@@ -8,7 +8,7 @@ const LocationHours = () => {
       className="container mx-auto flex flex-col items-start gap-8 bg-white py-16 md:flex-row md:gap-16 md:py-20"
     >
       <Location />
-      <OperationalHours />
+      <OperasionalHours />
     </section>
   );
 };
