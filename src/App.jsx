@@ -1,22 +1,21 @@
-import React from "react";
 import Nav from "./components/Navbar/Nav";
 import About from "./components/Hero/About";
-import Service from "./components/Hero/Service";
-import Time from "./components/Hero/Time";
-import ServiceAccordion from "./components/ServiceAccordion";
+import Service from "./components/Service/Service";
+import LocationHours from "./components/LocationHours/LocationHours";
+import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer";
 
-const App = () => { 
+const App = () => {
   return (
-    <main className="overflow-x-hidden">
+    <main>
       <Nav />
       <About />
       <Service />
-      <ServiceAccordion />
-      <Time />
+      <LocationHours />
+      <Contact />
       <Footer />
     </main>
-  )
-}
+  );
+};
 
 export default App;
