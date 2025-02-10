@@ -27,11 +27,11 @@ const About = () => {
         </div>
 
         {/* Bagian Gambar */}
-        <div className="relative order-1 flex justify-center md:order-2">
+        <div className="relative order-1 flex justify-end md:order-2 md:pr-16">
           <img
             src={KPRI}
-            alt="KPRI Logo"
-            className="w-[200px] transform rounded-lg object-contain drop-shadow-lg transition-transform duration-300 hover:scale-105 md:w-[300px]"
+            alt="Logo KPRI Husada Batang - Koperasi Pegawai Negeri Sektor Kesehatan"
+            className="w-[300px] transform rounded-lg object-contain transition-transform duration-300 hover:scale-110 md:w-[400px]"
           />
         </div>
       </div>
