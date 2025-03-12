@@ -8,9 +8,9 @@ const OperationalHours = () => {
     { day: "Selasa", time: "08.00 - 14.00" },
     { day: "Rabu", time: "08.00 - 14.00" },
     { day: "Kamis", time: "08.00 - 14.00" },
-    { day: "Jumat", time: "08.00 - 14.00" },
-    { day: "Sabtu", time: "08.00 - 14.00" },
-    { day: "Minggu", time: "08.00 - 14.00" },
+    { day: "Jumat", time: "08.00 - 10.30" },
+    { day: "Sabtu", time: "08.00 - 13.00" },
+    { day: "Minggu", time: "Libur" },
   ];
 
   const today = new Date().toLocaleDateString("id-ID", { weekday: "long" });
