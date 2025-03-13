@@ -7,14 +7,14 @@ import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <main>
+    <div className="w-full min-h-screen flex flex-col items-center bg-white bg-[url('/line-in-motion.svg')] bg-repeat bg-[size:600px]">
       <Nav />
       <About />
       <Service />
       <LocationHours />
       <Contact />
       <Footer />
-    </main>
+    </div>
   );
 };
 

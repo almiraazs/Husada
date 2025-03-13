@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'dots': "url('/line-in-motion.svg')",
+      },
       colors: {},
       container: {
         center: true,
